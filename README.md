@@ -31,3 +31,6 @@ Developed an interactive Sales Performance Analysis dashboard using Power BI, SQ
 * Dashboard Screenshot
 * Dataset
 
+##Dashboard Preview
+
+![Dashboard](SalesAnalysisDashboard.jpg)
