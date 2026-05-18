@@ -37,7 +37,8 @@ Developed an interactive Sales Performance Analysis Dashboard using Power BI, SQ
 
 - Power BI Dashboard (.pbix)  
 - Dashboard Screenshot  
-- Dataset  
+- Dataset
+- Excel Sheets (.csv files) of 
 
 ---
 
