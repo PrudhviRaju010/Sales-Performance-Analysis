@@ -4,9 +4,8 @@
 
 Developed a **comprehensive interactive Sales Performance Dashboard** using Power BI, SQL, and Excel to analyze sales trends, profit performance, and regional insights. This project demonstrates end-to-end data analysis workflow from data extraction to visualization and business insight generation.
 
-**Duration**: [Project Duration]  
 **Tools & Technologies**: Power BI, MySQL, SQL, Excel  
-**Dataset Size**: [Number of records] transactions across [Time Period]
+
 
 ---
 
@@ -16,29 +15,12 @@ Developed a **comprehensive interactive Sales Performance Dashboard** using Powe
 Organizations need real-time visibility into sales performance across multiple dimensions (regions, products, time periods) to make data-driven decisions and identify growth opportunities.
 
 ### Project Objectives
-- ✅ Extract and transform raw sales data from MySQL database
-- ✅ Identify top-performing regions and product categories
-- ✅ Analyze monthly sales trends and growth patterns
-- ✅ Compare profit performance across business segments
-- ✅ Create an interactive dashboard for executive decision-making
-- ✅ Identify underperforming areas for business improvement
-
----
-
-## 📁 Dataset Information
-
-| Aspect | Details |
-|--------|---------|
-| **Data Source** | MySQL Superstore Database |
-| **Records** | [Total transaction count] |
-| **Time Period** | [Date range] |
-| **Key Tables** | Orders, Customers, Products, Regions |
-| **Data Quality** | Cleaned and validated for accuracy |
-
-### Data Schema
-The project uses a **Star Schema** with the following dimension and fact tables:
-- **Fact Table**: Orders (sales transactions)
-- **Dimension Tables**: Products, Customers, Regions, Dates
+-  Extract and transform raw sales data from MySQL database
+- Identify top-performing regions and product categories
+- Analyze monthly sales trends and growth patterns
+- Compare profit performance across business segments
+-   Create an interactive dashboard for executive decision-making
+-  Identify underperforming areas for business improvement
 
 ---
 
@@ -46,12 +28,10 @@ The project uses a **Star Schema** with the following dimension and fact tables:
 
 ### 1. **Sales Performance Analysis**
 - Total sales revenue and order count
-- Sales trend analysis (month-over-month, year-over-year)
 - Regional sales distribution
 - Product category performance
 
 ### 2. **Profitability Analysis**
-- Profit margin calculation by region
 - Loss transactions identification
 - Profitable vs. unprofitable segments
 - Category-wise profit contribution
@@ -60,23 +40,6 @@ The project uses a **Star Schema** with the following dimension and fact tables:
 - Top customers by sales value
 - Customer-wise profit contribution
 - Regional customer concentration
-
-### 4. **Trend Analysis**
-- Seasonal sales patterns
-- Growth trend identification
-- Performance benchmarking
-
----
-
-## 📈 Key Findings & Insights
-
-| Finding | Impact | Recommendation |
-|---------|--------|-----------------|
-| **Top Region Performance** | [Region name] contributes [X]% of total sales | Focus marketing investments in this region |
-| **Loss Transactions** | [Number] transactions resulted in loss | Review pricing strategy for these products |
-| **Product Performance** | [Product name] is the best-performing category | Increase inventory allocation |
-| **Seasonal Pattern** | Sales spike in [Month/Quarter] | Plan inventory and staffing accordingly |
-| **High-Value Customers** | Top 10% of customers contribute [X]% of revenue | Implement customer retention programs |
 
 ---
 
@@ -90,13 +53,7 @@ The project uses a **Star Schema** with the following dimension and fact tables:
 -- Total Records: [Number] transactions
 ```
 
-**SQL Queries Used**:
-- Data extraction and validation
-- Aggregation queries for KPI calculation
-- Window functions for trend analysis
-- Joins across multiple dimension tables
 
-*See `Market_Star_Schema+Setup.sql` for complete schema and data loading scripts.*
 
 ### Dashboard Features (Power BI)
 
