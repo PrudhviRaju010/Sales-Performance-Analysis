@@ -2,7 +2,13 @@
 
 ## Project Overview
 
-Developed an interactive Sales Performance Analysis Dashboard using Power BI, SQL, and Excel to analyze sales trends, profit performance, and regional insights.
+This project presents an end-to-end **Sales Performance Analysis Dashboard** 
+built using **Power BI, SQL, and Excel** for a retail business dealing with 
+multiple products and customers across different regions.
+
+The goal of this project is to analyze sales trends, identify profit and loss 
+patterns, understand customer behavior, and provide actionable business 
+recommendations through interactive visualizations.
 
 ---
 
