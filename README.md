@@ -20,14 +20,50 @@ recommendations through interactive visualizations.
 
 ---
 
+## Objectives
+
+- Analyzed sales performance across multiple products
+  and customers to identify revenue and profit drivers
+- Identified top-performing customers contributing the
+  most to overall business sales
+- Detected loss-making transactions caused by heavy
+  discounting on low-margin products
+- Evaluated product-level profitability to distinguish
+  between profit-generating and loss-making products
+- Investigated the impact of discount rates (1%–10%)
+  on overall profit margins
+- Designed a Star Schema database in MySQL to efficiently
+  store and query sales transaction data
+- Delivered actionable business recommendations through
+  an interactive Power BI dashboard
+
+---
+
 ## Features
 
-- KPI Cards for Total Sales, Profit, and Orders  
-- Region-wise Sales Analysis  
-- Monthly Sales Trend Analysis  
-- Interactive Filters and Visualizations  
-- Profit Performance Tracking  
-
+- **Top Customer Analysis** — Ranked customers by total
+  sales: Cust_1818 (₹11,615), Cust_1641 (₹7,701),
+  Cust_839 (₹4,775) identified as top 3 revenue drivers
+- **Product Profit Tracking** — Profitability analysis
+  across 9 products: Prod_4 (₹2,286), Prod_2 (₹1,675),
+  and Prod_17 (₹1,219) are top profit generators
+- **Loss Transaction Detection** — Flagged 5 loss
+  transactions with combined losses of ₹1,116 caused
+  by discounts of 1%–10% on low base-margin products
+- **Discount Impact Analysis** — Identified that even
+  small discounts (1–3%) on products like Prod_16 and
+  Prod_6 result in negative profit
+- **Loss-Making Product Identification** — Prod_11
+  (-₹693), Prod_10 (-₹317), and Prod_16 (-₹7) flagged
+  for pricing strategy review
+- **Star Schema Design** — Fact and dimension tables
+  built in MySQL for structured and scalable data storage
+- **Interactive Power BI Dashboard** — KPI cards, filters,
+  and drill-down visuals for dynamic sales exploration
+- **Shipping Cost Analysis** — High shipping costs
+  (₹61.76 on Ord_2207) identified as a contributing
+  factor to loss transactions
+  
 ---
 
 ## Key Insights
