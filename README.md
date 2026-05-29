@@ -12,14 +12,6 @@ recommendations through interactive visualizations.
 
 ---
 
-## Tools Used
-
-- Power BI  
-- SQL  
-- Excel  
-
----
-
 ## Objectives
 
 - Analyzed sales performance across multiple products
@@ -93,6 +85,14 @@ recommendations through interactive visualizations.
   recommend reviewing its pricing strategy 
 
 ---
+
+## Tools Used
+
+- Power BI  
+- SQL  
+- Excel
+
+---  
 
 ## Files Included
 
